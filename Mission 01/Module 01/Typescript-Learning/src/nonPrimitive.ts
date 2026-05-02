@@ -32,3 +32,70 @@ let nameAndRoll : [string, number] = ['azim', 84]
 
 let destination: [string,string,number] = ['Dhaka' , 'Chattrogram' , 3];
 
+
+
+
+// reference type. : object
+
+
+//     const user : {
+        
+//         organization : 'PH HERO'; //value => Type : Literal type
+
+//         firstName : string;
+//         middleName? : string; // optional Type
+//         lastName : string;
+//         isMarried : boolean
+//     }= {
+
+//         organization : 'PH HERO',
+
+
+//         firstName : 'Md',
+//         middleName : 'Azim',
+//         lastName : 'Uddin',
+//         isMarried : true,
+        
+
+//     }
+
+
+// user.organization = 'PH HERO fire';
+
+
+
+
+
+
+
+
+
+    const user : {
+        
+        readonly organization : string; //access modifier
+
+        firstName : string;
+        middleName? : string; // optional Type
+        lastName : string;
+        isMarried : boolean
+    } = {
+
+        organization : 'PH HERO',
+
+
+        firstName : 'Md',
+        middleName : 'Azim',
+        lastName : 'Uddin',
+        isMarried : true,
+        
+
+    }
+
+
+user.organization = 'PH HERO fire';
+
+
+
+
+
+console.log(user)
