@@ -84,4 +84,4 @@ const student2 = {
 }
 
 
-const result = addStudentToCourse(student2);
+const result1 = addStudentToCourse(student2);
