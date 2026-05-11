@@ -1,5 +1,6 @@
 import type { IncomingMessage, ServerResponse } from "http";
 import { readProduct } from "../service/productService";
+import type { IProduct } from "../types/productType";
 
 export const productController = (req: IncomingMessage, res: ServerResponse) => {
 
@@ -31,9 +32,17 @@ export const productController = (req: IncomingMessage, res: ServerResponse) => 
         res.end(JSON.stringify({ message: "Product retrived succesfully" ,
         data :products }));
     }
-    // else if (method === "GET" && id != null) {
+    else if (method === "GET" && id != null) {
+        const products = readProduct();
+        const product = products.find((p : IProduct)=> p.id === id)
+        // console.log(product);
 
-    // }
+        res.writeHead(200, { "content-type": "application/json" });
+        res.end(JSON.stringify({ message: "Product retrived succesfully" ,
+        data :product }));
+
+
+    }
 
     
 }
