@@ -1,8 +1,20 @@
 [
-    {
-        "id " : 1,
-        "name" : "Product one",
-        "price" : 200
-
-    }
+  {
+    "id": 1,
+    "name": "Apple iPhone 15 Pro",
+    "description": "The Apple iPhone 15 Pro features a titanium design, A17 Pro chip, advanced camera system, and USB-C connectivity.",
+    "price": 1499
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "The Samsung Galaxy S24 Ultra comes with a powerful Snapdragon processor, 200MP camera, and built-in S Pen support.",
+    "price": 1399
+  },
+  {
+    "id": 5,
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Premium wireless noise-cancelling headphones with crystal clear sound quality and long battery life.",
+    "price": 399
+  }
 ]
