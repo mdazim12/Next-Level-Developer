@@ -16,5 +16,11 @@
     "name": "Sony WH-1000XM5 Headphones",
     "description": "Premium wireless noise-cancelling headphones with crystal clear sound quality and long battery life.",
     "price": 399
+  },
+  {
+    "id": 1778570459601,
+    "name": "test 2",
+    "description": "this description test 2",
+    "price": 600
   }
 ]
