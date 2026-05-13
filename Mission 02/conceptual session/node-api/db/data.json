@@ -1,4 +1,3 @@
-
 [
   {
     "id": "1",
@@ -34,5 +33,19 @@
     "quantity": 4,
     "food": "Sandwich Combo",
     "price": 950
+  },
+  {
+    "customare": "kami",
+    "food": "pizza",
+    "price": 1600,
+    "quantity": 4,
+    "id": "70.83711259996319"
+  },
+  {
+    "id": "26",
+    "customare": " joan",
+    "food": "pizza",
+    "price": 1600,
+    "quantity": 4
   }
 ]
