@@ -1,0 +1,38 @@
+
+[
+  {
+    "id": "1",
+    "customare": "Azim Uddin",
+    "quantity": 2,
+    "food": "Chicken Burger",
+    "price": 450
+  },
+  {
+    "id": "2",
+    "customare": "Rahim Ahmed",
+    "quantity": 1,
+    "food": "Beef Pizza",
+    "price": 850
+  },
+  {
+    "id": "3",
+    "customare": "Karim Hasan",
+    "quantity": 3,
+    "food": "Fried Chicken",
+    "price": 1200
+  },
+  {
+    "id": "4",
+    "customare": "Nusrat Jahan",
+    "quantity": 2,
+    "food": "Pasta Alfredo",
+    "price": 700
+  },
+  {
+    "id": "5",
+    "customare": "Sadia Islam",
+    "quantity": 4,
+    "food": "Sandwich Combo",
+    "price": 950
+  }
+]

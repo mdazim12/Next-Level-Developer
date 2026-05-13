@@ -1,6 +1,8 @@
 
 
 import {createServer} from "node:http"
+import { sendResponse } from "./ulitils"
+import { orderRoute } from "./routes/oderRoute";
 
 
 const server = createServer((req,res) => {
@@ -10,12 +12,20 @@ const server = createServer((req,res) => {
     const url = req.url ?? "/"
 
      if(url === "/") {
-        res.writeHead(200, {"content-type" : "application/json"})
-        res.end(JSON.stringify({message : "Hello"}))
+        sendResponse(res, {message : "Welcome to our server"},200);
+        return
     }
 
-    res.writeHead(404,{"content-type" : "application/json"})
-    res.end(JSON.stringify({message : "Not Found"}))
+
+     if(url.startsWith("/order")) {
+        orderRoute(req,res)
+        return
+    }
+
+
+     res.end(JSON.stringify({message : "Not Found"}))
+
+    sendResponse(res, {message : "Not found"},404);
         
 
 })
