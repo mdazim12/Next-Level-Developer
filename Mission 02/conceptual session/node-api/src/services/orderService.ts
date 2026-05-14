@@ -31,10 +31,16 @@ class OrderService {
 
 
     /// GET THE DATA
-
     async get() {
-        const data = await this.readData;
+        const data = await this.readData();
         return data;
+    }
+
+
+    /// GET BY ID
+    async getById(id : string) {
+        const data = await this.readData();
+        return data.find(order => order.id === id) || null;
     }
 
 
@@ -59,10 +65,12 @@ class OrderService {
 
 const orderService = new OrderService();
 
-await orderService.create({
-    customare: " joan",
-    food: "pizza",
-    price: 1600,
-    quantity: 4
+// await orderService.create({
+//     customare: " joan",
+//     food: "pizza",
+//     price: 1600,
+//     quantity: 4
 
-})
+// })
+
+console.log(await orderService.getById("2"));
