@@ -38,7 +38,7 @@ class OrderService {
 
 
     /// GET BY ID
-    async getById(id : string) {
+    async getById(id: string) {
         const data = await this.readData();
         return data.find(order => order.id === id) || null;
     }
@@ -52,12 +52,27 @@ class OrderService {
         const newOrder = {
             id: String(Math.floor(Math.random() * 100)),
             ...order
-            
+
         }
 
         data.push(newOrder)
 
         await this.writeData(data)
+    }
+
+
+    // UPDATE THE ORDER
+    async update(id: string, updates: Partial<Omit<Order, "id">>): Promise<Order> | null {
+        const data = await this.readData();
+
+        const i = data.findIndex(order => order.id === id)
+
+        if (i === -1) return null;
+
+        data[i] === {...data[i], ...updates} as Order
+
+        await this.writeData(data);
+
     }
 
 
