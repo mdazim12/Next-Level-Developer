@@ -29,20 +29,6 @@ app.use('/api/users', userRoute);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default app;
 
 
