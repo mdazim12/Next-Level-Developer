@@ -124,10 +124,44 @@ const updateProfile = async (req: Request , res : Response ) => {
 
 
 
+const deleteProfile = async (req: Request , res : Response) => {
+    const {id} = req.params
+
+    try {
+
+        const result = await profileServices.deleteProfileIntoDB(id as string);
+
+        if(result.rowCount === 0) {
+            res.status(404).json({
+                success : false,
+                message : "Profile not found",
+                data : {}
+            })
+        }
+
+        res.status(200).json({
+            success : true,
+            message : "Profile delete Successfully!",
+            data : {}
+        })
+        
+    } catch (error : any) {
+        res.status(500).json({
+            success : false,
+            message : error.message,
+            error : error
+        })
+    }
+}
+
+
+
+
 
 export const profileController = {
     createProfile,
     getAllProfile,
     getSingleProfile,
     updateProfile,
+    deleteProfile
 }

@@ -8,6 +8,7 @@ router.post('/',profileController.createProfile);
 router.get('/', profileController.getAllProfile );
 router.get('/:id', profileController.getSingleProfile)
 router.put('/:id',profileController.updateProfile)
+router.delete('/:id', profileController.deleteProfile)
 
 
 

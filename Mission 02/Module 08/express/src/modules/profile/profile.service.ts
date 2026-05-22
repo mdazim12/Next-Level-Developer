@@ -70,10 +70,21 @@ const updateProfileIntoDB = async(payload :IProfile ,id : string) => {
 
 
 
+const deleteProfileIntoDB = async(id: string) => {
+    const result = await pool.query(`
+        DELETE FROM profiles WHERE id = $1
+        `,[id]);
+
+        return result;
+}
+
+
+
 
 export const profileServices = {
     createProfileIntoDB,
     getAllProfileIntoDB,
     getSingleProfileIntoDB,
-    updateProfileIntoDB
+    updateProfileIntoDB,
+    deleteProfileIntoDB
 }
