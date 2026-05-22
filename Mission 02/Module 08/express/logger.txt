@@ -183,3 +183,66 @@ Duration : 2497ms
             Duration : 2461ms
             --------------------------------------------------
             
+            [2026-05-22T13:27:30.320Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 3018ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:28:19.327Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2411ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:40:30.664Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 286ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:52:03.931Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 592ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:53:14.418Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2640ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:54:01.067Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2611ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:55:51.006Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 404
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2336ms
+            --------------------------------------------------
+            
