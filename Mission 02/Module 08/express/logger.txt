@@ -3,3 +3,183 @@ Method -> GET - Time 1779432048402 - URL /api/users
  
 Method -> GET - Time 1779432084524 - URL /api/users/1
  
+[2026-05-22T06:46:22.004Z]
+Method   : GET
+URL      : /api/users/1
+Status   : 304
+IP       : ::1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Duration : 2360ms
+--------------------------------------------------
+
+[2026-05-22T06:47:03.861Z]
+Method   : GET
+URL      : /api/profile
+Status   : 200
+IP       : ::1
+UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+Duration : 2497ms
+--------------------------------------------------
+
+            [2026-05-22T08:56:22.143Z]
+            Method   : GET
+            URL      : /api/profile15
+            Status   : 404
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 4ms
+            --------------------------------------------------
+            
+            [2026-05-22T08:56:54.017Z]
+            Method   : GET
+            URL      : /api/profile/20
+            Status   : 500
+            IP       : undefined
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2464ms
+            --------------------------------------------------
+            
+            [2026-05-22T08:58:23.712Z]
+            Method   : GET
+            URL      : /api/allUser
+            Status   : 404
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 0ms
+            --------------------------------------------------
+            
+            [2026-05-22T08:58:45.307Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2599ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:04:40.203Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 500
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 5ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:05:02.894Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2479ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:17:23.672Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 304
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2421ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:18:06.876Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 304
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2424ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:18:43.702Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 304
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2374ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:18:59.982Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 304
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 2381ms
+            --------------------------------------------------
+            
+            [2026-05-22T09:21:49.367Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 304
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 270ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:14:23.545Z]
+            Method   : POST
+            URL      : /api/auth/login
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 3084ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:14:54.075Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2357ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:16:07.134Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2419ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:16:35.782Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 267ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:20:09.248Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 401
+            IP       : ::1
+            UserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+            Duration : 4ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:20:29.206Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 401
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2ms
+            --------------------------------------------------
+            
+            [2026-05-22T13:20:46.293Z]
+            Method   : GET
+            URL      : /api/users/
+            Status   : 200
+            IP       : ::1
+            UserAgent: PostmanRuntime/7.53.0
+            Duration : 2461ms
+            --------------------------------------------------
+            
